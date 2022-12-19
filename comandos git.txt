@@ -1,0 +1,36 @@
+Configuraçoes de usuario no Git
+	Configurar o nome do usuario
+		git config --global user.name "Nome do usuario "
+	
+	Configurar email 
+		git config --global user.email
+		
+	Mostrar as configuraçoes 
+		git config --list
+
+Criando repositorio local 
+	configuração de branch padrao 
+		git config --global init.defaultBranch 'nome da branch'
+	
+	criando repositorio 
+		git init 
+
+Adicionando mudanças
+	adicionando apenas arquivo 
+		git add 'nome do arquivo'
+	
+	adicionando mais de um arquivo 
+		git add -A
+		git add .
+		git add --all
+		
+Removendo arquivos adicionados 
+	remover arquivos adicionados 
+		git rm --cached 'nome do arquivo'
+
+	remover todos arquivos adicionados 
+		git rm --cached -r .
+	
+Salvando os arquivos 
+	commitando os arquivos 
+		git commit -m "Mensagem do commit"
